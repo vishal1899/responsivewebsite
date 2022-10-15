@@ -1,0 +1,381 @@
+:root
+{
+    --main-width: 400px;
+    --main-height: 749px;
+}
+
+
+/* navbar start */
+
+#navbar
+{
+    width: var(--main-width);
+    height: 60px;
+    justify-content:space-between;
+    padding: 0 10px 0 10px;
+}
+
+#navbar h2
+{
+    font-size: 1em;
+}
+
+#navbar a
+{
+    font-size: 0.8em;
+}
+
+/* navbar end */
+
+/* home section start  */
+
+    #home
+    {
+        width: var(--main-width);
+        height: var(--main-height);
+        overflow: hidden;
+    }
+
+    #home #child-div 
+    {
+        width: 100%;
+        height: auto;
+        padding: 5px;
+    }
+
+    #home #child-div h1
+    {
+        font-size: 3em;
+    }
+
+    #home #child-div2 
+    {
+        width: 150px;
+        height: 150px;
+        top: 500px;
+        left: 40px;
+    }
+
+    #home #child-div2 h2
+    {
+        font-size: 1em;
+        margin-right: -100px;
+    }
+
+/* home section end */
+
+/* about start */
+
+    #about
+    {
+        width: var(--main-width);
+        height: auto;
+    }
+    
+    #about #about-content
+    {
+        width: 95%;
+        height: 95%;
+    }
+
+    /* 3 main div */
+
+    #about #about-content .child-div
+    {
+        width: 100%;
+        height: auto;
+        margin: 10px;
+        padding: 10px;
+        /* overflow:scroll; */
+    }
+
+    /* div 1 */
+
+    #about #about-content #div1 h1
+    {
+        font-size: 1.8em;
+    }
+
+    /* div 2 */
+
+    #about #about-content #div2>p
+    {
+        visibility: visible;
+        text-align: justify;
+        font-weight: 500;
+        font-size: 1em;
+        line-height: 1.5;
+        /* padding: 10px; */
+    }
+    
+    #about #about-content #div2 #div2-child
+    {
+        visibility: hidden;
+    }
+
+    /* div 3 */
+
+    #about #about-content #div3
+    {
+        height: auto;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #about #about-content #div3 .div3-box
+    {
+        width: 100%;
+        height: 100px;
+        margin: 10px;
+        /* margin: 10px 5px 5px 5px; */
+    }
+
+    #about #about-content #div3 .div3-box h1
+    {
+        font-size: 3em;
+    }
+
+/* about end */
+
+/* customer section start */
+
+    #customer
+    {
+        width: var(--main-width);
+        height: auto;
+        overflow: hidden;
+    }    
+
+    #customer #customer-content h1
+    {
+        font-size: 2rem;
+    }
+
+    /* image box */
+
+  #customer #customer-imgbox
+  {
+    height: auto;
+    flex-direction: column;
+  }
+
+  #customer #customer-imgbox .imgbox 
+  {
+    width: 100%;
+    height: 300px;
+    margin: 10px;
+  }
+
+  #customer #customer-imgbox .imgbox h2
+  {
+    font-size: 1em;
+  }
+
+  #customer #customer-imgbox .imgbox p
+  {
+    font-size: 0.8em;
+  }
+
+
+
+/* customer section end */
+
+/* factory section start */
+
+    #factory
+    {
+        width: var(--main-width);
+        height: auto;
+        overflow: hidden;
+    }
+
+  #factory .factory-box
+  {
+    width: 100%;
+    margin: 10px;
+  }
+
+  /* factory box 1 */
+
+  #factory #fbox1
+  {
+    width: 95%;
+    padding: 10px;
+  }
+
+  #factory #fbox1 h1
+  {
+    font-size: 2.5em;
+  }
+
+  #factory #fbox1 p
+  {
+    font-size: 0.9em;
+  }
+
+  /* factory box 2 */
+  #factory #fbox2 
+  {
+    width: 95%;
+    height: auto;
+    flex-direction: column;
+    margin: auto;
+  }
+
+  #factory #fbox2 .childbox
+  {
+    width: 90%;
+    display: grid;
+    place-content: center;
+  }
+
+  #factory #fbox2 .childbox i ,h1,p
+  {
+    padding: 0;
+  }
+
+  #factory #fbox2 .childbox i 
+  {
+    font-size: 5em;
+    text-align: center;
+  }
+
+  #factory #fbox2 .childbox h1
+  {
+    font-size: 2em;
+    text-align: center;
+  }
+
+  #factory #fbox2 .childbox p
+  {
+    font-size: 1.5em;
+    text-align: center;
+  }
+
+/* factory section end */
+
+/* contact section start */
+
+  #contact
+  {
+    width: var(--main-width);
+    height: auto;
+  }
+
+  #contact #contact-content
+  {
+    width: 95%;
+    height: 95%;
+    flex-direction: column-reverse;
+
+  }
+
+  #contact #contact-content .contact-box 
+  {
+    width: 95%;
+    height: auto;
+  }
+
+  /* box 1 */
+
+  #contact #contact-content #box1 
+  {
+    padding: 10px;
+  }
+
+  #contact #contact-content #box1 h1
+  {
+    font-size: 2em;
+  }
+
+  #contact #contact-content #box1 p
+  {
+    text-align: justify;
+  }
+
+  #contact #contact-content #box1 iframe
+  {
+    width: 350px;
+    height: 300px;
+    margin: 10px auto 10px auto;
+  }
+
+  /* box 2 */
+
+  #contact #contact-content #box2 
+  {
+    padding: 10px;
+  }
+
+  #contact #contact-content #box2 form
+  {
+    width: 350px;
+    height: auto;
+    margin: 10px auto 10px auto;
+  }
+
+  #contact #contact-content #box2 form .form-group
+  {
+    margin: 5px auto;
+  }
+
+  #contact #contact-content #box2 form .form-group i
+  {
+    font-size: 0.8em;
+    top: 25px;
+  }
+
+  #contact #contact-content #box2 form .form-group input
+  {
+    font-size: 0.8em;
+  }
+
+  #contact #contact-content #box2 form .form-group textarea
+  {
+    font-size: 0.8em;
+  }
+
+  #contact #contact-content #box2 form input[type="submit"]
+  {
+    font-size: 0.8em;
+  }
+
+
+
+/* contact section end */
+
+/* footer section start */
+
+footer
+{
+    width: var(--main-width);
+    height: var(--main-height);
+}
+
+footer #footer-content
+{
+    flex-direction: column;
+}
+
+footer #footer-content .box 
+{
+    width: 100%;
+    margin: 10px 0 0 0;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* box 1 */
+
+footer #footer-content #box1 li
+{
+    margin: 0;
+}
+
+footer #footer-content #box1 li a
+{
+    font-size: 2em;
+}
+
